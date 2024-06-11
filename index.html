@@ -1,10 +1,73 @@
+<!DOCTYPE html>
+<html lang="en"></html>
 <html>
   <head>
-    <title>My blog</title>
+    <!--Head section, containing meta data and references to other files-->
+    <meta charset="UTF-8" />
+    <title>Learning to Code</title>
+    <link href="styles/main.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="description" content="learning to code blog" />
+    <meta name="keywords" content="html learning code css blog" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--TODO: Add images to background, transparent/opacity
+                Use ids to manipulate elements-->
+    <body class="container">
+      <!--body section. contains an external class made in main CSS-->
+      <h1 class="titleBar">Jack's DevAcademy Journey</h1>
+      <div class="mainLayout">
+        <!--div with class mainlayout. holds basic structure of the webpage-->
+        <nav class="linkBox">
+          <!--holds basic structure of the two linkboxes. might be better to seperate them in future?
+          -->
+          <h2>Tech Skills</h2>
+          <ol class="navList">
+            <!--ordered list for links-->
+            <li>Entry coming soon</li>
+            <li>Entry coming soon</li>
+            <li>Entry coming soon</li>
+          </ol>
+        </nav>
+        <nav class="linkBox">
+          <!--ordered list for links-->
+          <h2>Human Skills</h2>
+          <ol class="navList">
+            <li>Entry coming soon</li>
+            <li>Entry coming soon</li>
+            <li>Entry coming soon</li>
+          </ol>
+        </nav>
+        <main class="introParagraph">
+          <!--holds structure of the blog's intro-->
+          <h4><b>Hello and welcome to my blog!</b></h4>
+          <h5>
+            Here you will find entries on my journey throughout the DevAcademy
+            course.
+          </h5>
+          <p>
+            The blog will be divided between two sections;
+            <span class="highlightText">tech</span> and
+            <!--span referrering to CSS class which highlights text-->
+            <span class="highlightText">human</span> skills.
+          </p>
+
+          <a
+            href="/blog/te-houtaewa-template.html"
+            target="_blank"
+            title="This takes you to a template provided by DevAcademy"
+          >
+            Te Houtaewa Template provided by DevAcademy </a
+          ><!--hyperlink to the template, opens in new tab and has mouse hover text-->
+        </main>
+      </div>
+      <footer class="footer">
+        <p>Jack G DevAcademy Blog 2024 (idk what else to put here lol)</p>
+      </footer>
+    </body>
   </head>
-  <body>
-    <h1>Kia ora Taiao! (Hello World!)</h1>
-    <p>This is the beginning of my website home page.</p>
-    <p>It will eventually contain a list of links to all my blogs.</p>
-  </body>
 </html>
