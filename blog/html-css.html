@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="/styles/main.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="description" content="learning to code blog" />
+    <meta name="keywords" content="html learning code css blog" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech Blog Post</title>
+  </head>
+  <style>
+    #jumpButton {
+      text-align: center;
+      background-color: #fbe9d0;
+      opacity: 80%;
+      border-style: inset;
+      border-radius: 2em;
+      border-width: thick;
+      border-color: #90aead;
+      padding: 0.25em;
+      width: 100%;
+    }
+  </style>
+  <body class="container">
+    <article>
+      <!--Return to homepage button-->
+      <nav class="homepageLink">
+        <a href="/index.html">To the homepage</a>
+      </nav>
+      <h1 class="blogTitleBar">
+        <!--Hyperlink for the jump to top button-->
+        <a id="top"> Best Practices when using Classes vs IDs </a>
+      </h1>
+      <div class="mainLayout">
+        <main class="introParagraph">
+          <h2>
+            <ins
+              ><b
+                >Major Differences in the HTML attributes "Classes" and "ids"</b
+              ></ins
+            >
+          </h2>
+          <p>
+            This is a short post what classes and ids are and when to best use
+            each attribute.
+          </p>
+          <h3>
+            <ins><b>Classes</b></ins>
+          </h3>
+          <p>
+            Classes are attributes which can be reused on multiple HTML
+            elements.
+          </p>
+          <p>They are declared with a "." at the start of the declaration.</p>
+          <p>
+            These can be declared either in the head section of an HTML file or
+            on a CSS stylesheet.
+          </p>
+          <p>You can use an unlimited amount of styling in a Class.</p>
+          <p>You can also use multiple classes on the same element.</p>
+          <p>
+            To the right you can see the class attribute that dictates how this
+            box looks <b>-></b>
+          </p>
+          <div class="mainlayout">
+            <img class="blogImage" src="/images/class_example.png" />
+          </div>
+        </main>
+      </div>
+      <div class="mainLayout">
+        <main class="introParagraph">
+          <h3>
+            <ins><b>IDs</b></ins>
+          </h3>
+          <p>
+            IDs are unique attributes. They cannot be reused on multiple HTML
+            elements.
+          </p>
+          <p>IDs are declared with a "#" at the start of the declaration.</p>
+          <p>
+            They are also declared in either the header of an HTML file or on a
+            CSS stylesheet.
+          </p>
+          <p>Only one ID element can be used on a page.</p>
+          <p>Unlike classes, only one ID can be used in an element.</p>
+          <p>
+            They are also useful for jumping between places on the same web
+            page.
+          </p>
+          <p>
+            On the right is an example of the ID used to jump to the top of this
+            page. ->
+          </p>
+          <div class="mainlayout">
+            <img class="blogImage" src="/images/link_to_top_code.png" />
+        </article>
+        </main>
+      </div>
+      <!--Hyperlink to the top of the page (goes to titlebar)-->
+      <a href="#top">
+        <h1 id="jumpButton">To the top!</h1>
+      </a>
+  </body>
+</html>
