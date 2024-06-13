@@ -50,6 +50,7 @@
   border-style: inset;
   border-width: thick;
   padding: 1em;
+  align-items: center;
   font-family: 'Playfair Display', serif;
   margin-top: 1em;
   .paragraphTitle {
