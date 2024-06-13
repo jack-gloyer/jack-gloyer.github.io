@@ -51,6 +51,7 @@
   flex-direction: column;
   flex-wrap: wrap;
   background-color: #fbe9d0;
+  color: #874f41;
   border-radius: 1em;
   border-style: inset;
   border-width: thick;
@@ -98,7 +99,8 @@
   opacity: 65%;
 }
 .blogImage {
-  width: 35em;
+  height: 75%;
+  width: 75;
 }
 .footer {
   /*structure for footer*/
