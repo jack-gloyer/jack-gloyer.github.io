@@ -8,18 +8,22 @@
 .titleBar {
   /*holds structure for title bar of main page*/
   position: relative;
+  justify-content: center;
+  flex-wrap: center;
   padding: 0.5em;
   background-color: #90aead;
   border-radius: 5rem;
   border-color: #000;
   border-width: 0.5rem;
   border-style: solid;
+  text-align: center;
 }
 .blogTitleBar {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  align-items: center;
   padding: 0.15em;
   margin-top: 0.25em;
   height: 5vh;
@@ -38,6 +42,7 @@
   flex-direction: column;
   padding: 1em;
   color: #874f41;
+  align-items: center;
 }
 .introParagraph {
   /*holds structure for welcoming post*/
@@ -59,7 +64,6 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
       'Lucida Sans', Arial, sans-serif;
     padding: 0.15em;
-    margin-top: 0.25em;
     height: 5vh;
     width: 75vw;
     background-color: #90aead;
