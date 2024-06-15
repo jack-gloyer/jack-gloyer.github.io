@@ -7,20 +7,21 @@
 }
 .titleBar {
   /*holds structure for title bar of main page*/
+  display:flex;
   position: relative;
   justify-content: center;
-  flex-wrap: center;
+  align-items: center;
+  flex-wrap: wrap;
   padding: 0.5em;
   background-color: #90aead;
   border-radius: 5rem;
   border-color: #000;
   border-width: 0.5rem;
   border-style: solid;
-  text-align: center;
 }
 .blogTitleBar {
   display: flex;
-  justify-content: center;
+  justify-content: centre;
   align-items: center;
   flex-wrap: wrap;
   align-items: center;
@@ -62,7 +63,7 @@
   .paragraphTitle {
     display: flex;
     justify-content: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    font-family: 'Playfair Display', Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
       'Lucida Sans', Arial, sans-serif;
     padding: 0.15em;
     height: 5vh;
