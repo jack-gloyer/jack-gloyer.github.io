@@ -21,10 +21,11 @@
 }
 .blogTitleBar {
   display: flex;
-  justify-content: centre;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   align-items: center;
+  font-size:x-large;
   padding: 0.15em;
   margin-top: 0.25em;
   height: 5vh;
@@ -56,6 +57,7 @@
   border-radius: 1em;
   border-style: inset;
   border-width: thick;
+  border-color: #874f41;
   padding: 1em;
   align-items: center;
   font-family: 'Playfair Display', serif;
@@ -87,17 +89,16 @@
   border-style: inset;
   border-radius: 4em;
   border-width: thick;
-  border-color: #90aead;
+  border-color: #874f41;
 }
 
 .navList {
   /*structure for list of links*/
   list-style: square;
 }
-.homepageImage {
+.image {
   height: 20%;
   width: 30%;
-  opacity: 65%;
 }
 .blogImage {
   height: 75%;
@@ -111,7 +112,7 @@
   border-style: inset;
   border-radius: 2em;
   border-width: thick;
-  border-color: #90aead;
+  border-color: #874f41;
   padding: 0.25em;
   margin-top: 1em;
   width: 100%;
@@ -122,10 +123,22 @@
   right: 0;
   background-color: #fbe9d0;
   padding: 0.25em;
-  background-color: #fbe9d0;
+  border-color: #874f41;
   border-radius: 1em;
   border-style: inset;
   border-width: thick;
+}
+
+#jumpButton {
+  text-align: center;
+  background-color: #fbe9d0;
+  opacity: 80%;
+  border-style: inset;
+  border-radius: 2em;
+  border-width: thick;
+  border-color: #90aead;
+  padding: 0.25em;
+  width: 100%;
 }
 span.highlightText {
   /*used  to highlight text*/
