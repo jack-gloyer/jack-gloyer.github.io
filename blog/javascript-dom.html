@@ -22,5 +22,68 @@
       <nav class="homepageLink">
       <a href="/index.html">To the homepage</a>
       </nav>
+      <h1 class="blogTitleBar">JavaScript and the DOM</h1>
+      <div class = "mainLayout">
+        <div class = "introParagraph">
+        <span class = "blogTitleBar">A Quick Post about my first week on JavaScript</span>
+        <h2>This post will contain some of the main concepts I have come across in my third week learning with DevAcademy</h2>
+        <h3>These include<br>(Click to jump to the section):</h3>
+        <div class = "linkBox">
+        <ul>
+          <li><a href = "#analogy">A Quick analogy to Describe JavaScript and its relationship to HTML and CSS</a></li>
+          <li><a href = "#ctrlLoops">An Explanation of what Control Flow and Loops are</a></li>
+          <li><a href = #dom>A Description of the DOM</a></li>
+          <li><a href = "#arraysObjects">The Difference between Accessing Data from Arrays and Objects</a></li>
+          <li><a href = "#functions">What Functions are and why they are useful</a></li>
+        </ul>
+        </div>
+        <h2><a id = "analogy"></a>JS and its Relationship to HTML and CSS</h2>
+          <p>Sticking to my previous career, I am going to use the analogy of a professional kitchen to describe JavaScript and its relationship to HTML and CSS.</p>
+          <p>In this analogy, HTML is the kitchen's layout. As in where things like your stove is, where your chopping boards are stored etc.</p>
+          <p>CSS is the plating section. It is where everything comes together and <i>someone</i> <br>has final say on presentation and what the customer, or in the case of coding, the end user, sees.</p>
+          <p>JavaScript is the pots, the pans, the knives. It is what makes everything work and function to create amazing things.</p>
+          <h2><a id = "ctrlLoops"></a>Control Flow and Loops</h2>
+          <p>Control flow is referring to controlling the order in which code executes (i.e. does what it says it is going to do).</p>
+          <p>Programmers use control flow to make decisions in the code itself.</p>
+          <p>The first type of control flow is conditional statements.</p>
+          <p>The most common type of these is the if statement, and any of its derivatives (if else, if ..else if… if and nested if). One real life example of these is </p>
+          <pre class = "quoteBox"><code>
+            if (I do 4 hours of programming) { 
+              I will reward myself with 1 hour of playing Elden Ring
+              }
+          </code></pre>
+          <p>Loops are most commonly used to execute code a specific amount of times.</p>
+          <p>A real life example of a loop:</p>
+          <pre><code>	For (start at minutes  0; if minutes are greater than  25; add one minute){
+              Go take a 10 minute study break
+            }
+          </code></pre>
+          <p>Where the first section inside the normal () is declaring an iterator.</p>
+          <p>The second section is stating when this loop should end when it meets the critera.</p>
+          <p>The third section is what the loop does after completing one loop-around</p>
+          <p>The sections are seperated by <b>;</b> marks</p>
+        <h2><a id = "dom"></a>The DOM</h2>
+          <p>The DOM is an object which stores all the elements of a webpage and allows you to access and interact with them. </p>
+          <p>Your web browser will structure these elements into a web-like representation when it sees you are loading an HTML document.</p>
+          <p>This is where JavaScript comes into play. You can use JS to change and manipulate content, style and structure of the webpage.</p>
+          <p>An example snippet of code:</p>
+          <pre class = "quoteBox"><code>document.body.style.background = : “black”</code></pre>
+          <p>This will change the background colour of the webpage without accessing a CSS stylesheet.</p>
+          <h2><a id = "arraysObjects"></a>Differences Between Arrays and Objects</h2>
+          <p>Arrays are single type element (data) “lists” while objects are multi-type element (data) “labels”.</p>
+          <p>Arrays are accessed from an ordered list of items while objects are labels which store the data in an unordered fashion.</p>
+          <p>Each label has its own value of any type.</p>
+        <h2><a id = "functions"></a>Functions</h2>
+          <p>Functions are re-usable code that helps reduce a program’s complexity via its reusability.</p>
+          <p>It must be defined in one place and then ‘called’ to action some other place in the program.</p>
+          <p>They are capable of taking parameters - pieces of information which the function can manipulate <br>or read to use in its inner code to do all kinds of things with.</p>
+          <p>Though taking parameters is not required and functions can work without them the same way.</p>
+          <p>They also may return a piece of data, although this is not required for said function to function (lol).</p>
+        </div>
+             <!--Hyperlink to the top of the page (goes to id "top")-->
+      <a href="#top">
+        <h1 id="jumpButton">To the top!</h1>
+      </a>
+      </div>
     </body>
 </html>

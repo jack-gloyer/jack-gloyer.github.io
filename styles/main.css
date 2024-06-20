@@ -29,9 +29,10 @@
   margin-top: 0.25em;
   height: 5vh;
   width: 75vw;
+  color:#000;
   background-color: #90aead;
   border-radius: 5rem;
-  border-color: #874f41;
+  border-color: black;
   border-width: 0.5rem;
   border-style: solid;
 }
@@ -91,6 +92,14 @@
   border-radius: 4em;
   border-width: thick;
   border-color: #874f41;
+}
+
+.quoteBox{
+  padding-right: 50px;
+  align-items: center;
+  color:rgb(151, 216, 216);
+  background-color: #090c1f;
+  opacity: 85%;
 }
 
 .navList {
