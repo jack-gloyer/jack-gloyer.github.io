@@ -2,33 +2,17 @@
   /*imported font from google*/
   font-family: 'Playfair Display', serif;
   font-optical-sizing: auto;
-  font-weight: <400>;
+  font-weight: 400;
   font-style: normal;
 }
-.titleBar {
-  /*holds structure for title bar of main page*/
-  display:flex;
-  position: relative;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 0.5em;
-  background-color: #90aead;
-  border-radius: 5rem;
-  border-color: #874f41;
-  border-width: 0.5rem;
-  border-style: solid;
-}
 .blogTitleBar {
+  /*holds structure for title bars*/
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
   align-items: center;
   padding: 0.15em;
   margin-top: 0.25em;
-  height: 5vh;
-  width: 75vw;
   color:#000;
   background-color: #90aead;
   border-radius: 5rem;
@@ -36,22 +20,11 @@
   border-width: 0.5rem;
   border-style: solid;
 }
-.mainLayout {
-  /*holds structure for positioning of other divs(i think)*/
-  position: relative;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  padding: 1em;
-  color: #874f41;
-  align-items: center;
-}
+
 .introParagraph {
   /*holds structure for welcoming post*/
-  position: relative;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   background-color: #fbe9d0;
   color: #874f41;
   border-radius: 1em;
@@ -67,9 +40,7 @@
     justify-content: center;
     font-family: 'Playfair Display', Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
       'Lucida Sans', Arial, sans-serif;
-    padding: 0.15em;
-    height: 5vh;
-    width: 75vw;
+    padding: 10px;
     background-color: #90aead;
     border-radius: 5rem;
     border-color: #000;
@@ -95,8 +66,13 @@
 }
 
 .quoteBox{
+  display:flex;
+  position: relative;
+  text-align: center;
+  text-wrap:inherit;
+  justify-content: center;
   padding-right: 50px;
-  align-items: center;
+  width:80%;
   color:rgb(151, 216, 216);
   background-color: #090c1f;
   opacity: 85%;
@@ -112,7 +88,7 @@
 }
 .blogImage {
   height: 75%;
-  width: 75;
+  width: 75%;
 }
 .footer {
   /*structure for footer*/
@@ -128,9 +104,8 @@
   width: 100%;
 }
 .homepageLink {
-  position: absolute;
-  top: -1em;
-  right: 0;
+  position: flex;
+  text-align: center;
   background-color: #fbe9d0;
   padding: 0.25em;
   border-color: #874f41;
