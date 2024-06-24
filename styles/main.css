@@ -10,7 +10,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  align-items: center;
   padding: 0.15em;
   margin-top: 0.25em;
   color:#000;
@@ -112,6 +111,20 @@
   border-radius: 1em;
   border-style: inset;
   border-width: thick;
+}
+.tableStyle{
+  flex-direction:column;
+  border:5px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  font-size:x-large;
+  .tableRow{
+    background-color: #dddd;
+  }
+  .tableData{
+    border: 3px solid #90aead;
+    padding: 8px;
+  }
 }
 
 #jumpButton {
