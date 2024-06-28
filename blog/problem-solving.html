@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="/styles/main.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="description" content="learning to code blog" />
+    <meta name="keywords" content="html learning code css blog" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Problem Solving</title>
+  </head>
+  <body class="container">
+    <!--Hyperlink for the jump to top button-->
+    <a id="top"></a>
+    <article>
+      <!--Return to homepage button-->
+      <nav class="homepageLink">
+        <a href="/index.html"
+          ><button class="buttonStyle">To the homepage</button></a
+        >
+      </nav>
+      <h1 class="blogTitleBar">Problem Solving in JavaScript</h1>
+      <div class="mainLayout">
+        <div class="introParagraph">
+          <span class="blogTitleBar"
+            >A Discussion about Some Problem Solving Techniques</span
+          >
+          <p>
+            This is a post of some stories about some problems I have been stuck
+            on the last week, and how I solved them.
+          </p>
+          <p>
+            As well as a breakdown of some problem-solving techniques and how
+            comfortable I am using them.
+          </p>
+          <h1>A Story about a Time I was Blocked on A Simple Problem</h1>
+          <h2>What was the problem?</h2>
+          <p>
+            This week I had a lot of trouble with a simple problem. The problem
+            was with a function which would take a set of test scores and assign
+            them to a student.
+          </p>
+          <p>
+            Basically I was trying to add an object property to an already
+            existing object property.<br />
+            But the main issue I had was figuring out a way to find the correct
+            object to add the test scores to.
+          </p>
+          <h2>What problem-solving techniques did you use?</h2>
+          <p>
+            The problem-solving technique I used was a lot, a lot, a lot of
+            googling. Seriously every google search even remotely close to this
+            problem is purple now.
+          </p>
+          <img class="image" src="/images/googleSearchPic.png" />
+          <h2>How did you feel throughout the process?</h2>
+          <p>
+            Quite frustrated to be honest. I thought “Surely this can’t be that
+            complicated, it’s only question 3 on the 4th kata!” <br />but
+            eventually I came across the .hasOwnProperty() method in an MDN web
+            doc.
+          </p>
+          <p>
+            This quickly solved my issue alongside a little help from Dave about
+            dot versus bracket notation.
+          </p>
+          <h2>What did you learn?</h2>
+          <p>
+            I learned that I might need to work on breaking questions down and
+            get better at explaining my problems. <br />I found it quite
+            difficult to explain what I was actually struggling with here at the
+            start, <br />and I think I luckily stumbled upon the
+            .hasOwnProperty() method rather than any kind of skilled googling.
+            Something to work on in the future!
+          </p>
+          <h1>A Story about a Time I elegantly Solved a Problem</h1>
+          <h2>What was the problem?</h2>
+          <p>
+            The problem I elegantly solved this week was the stretch question in
+            the gradebook kata. <br />This kata involved creating a new
+            gradebook from scratch in one function. <br />An empty object, an
+            array of student names and an array of test scores were passed into
+            a function as arguments.
+          </p>
+          <h2>What problem-solving techniques did you use?</h2>
+          <p>
+            The problem-solving technique I used was trying something out.
+            <br />I did a few attempts at completing the function before I
+            realised I was basically doing the same as question 3. <br />So I
+            copy-pasted my code from question 3 into the new enterScores
+            function and it worked! .forEach() is a powerful method
+          </p>
+          <h2>How did you feel throughout the process?</h2>
+          <p>
+            To be honest I was a bit chuffed when I copy pasted the code into
+            the function and it worked. <br />Throughout the process, I think I
+            was overthinking the problem at first but once I broke what the
+            function was actually asking to do, <br />I realised I had basically
+            solved it already.
+          </p>
+          <h2>What did you learn?</h2>
+          <p>
+            I learned that sometimes in programming, the best answer is a simple
+            one. <br />Instead of overcomplicating everything with for loops and
+            if else if ladders, you can use pre built-in methods and such to
+            complete logic puzzles.
+          </p>
+          <h1>
+            Some Reflection on my Confidence Levels with these Problem-Solving
+            Techniques/Processes
+          </h1>
+          <h2>Psuedocode</h2>
+          <p>
+            I think I am using pseudocode fairly well already, but I need to get
+            better at breaking down problems before I attempt them.
+          </p>
+          <h3>8/10</h3>
+          <h2>Trying Something</h2>
+          <p>
+            Fairly comfortable with this technique, just need to fully break
+            down problems before I attempt something.
+          </p>
+          <h3>8/10</h3>
+          <h2>Rubber Ducky Method</h2>
+          <p>
+            I like this technique, it helps me break down problems into smaller
+            steps. <br />But I think I might need to actually buy a rubber ducky
+            because it is a bit embarrassing talking to my less tech savvy
+            friends about tech stuff.
+          </p>
+          <h3>7/10</h3>
+          <h2>Reading Error Messages</h2>
+          <p>
+            I really like trying to solve stuff backwards like this.
+            <br />Seeing what is being rejected by tests and the code editor
+            helps me see what isn’t making sense to the computer/browser.
+          </p>
+          <h3>8/10</h3>
+          <h2>Console.logging</h2>
+          <p>
+            Console logging is like 95% of what I do dude. <br />I'm sure
+            whoever is marking my work is going to get annoyed at how many
+            console.logs are in my functions (sorry!) <br />Really nice to see
+            what is actually happening to variables etc.
+          </p>
+          <h3>9/10</h3>
+          <h2>Googling</h2>
+          <p>
+            I know that Googling is such an important tool in the day to day
+            life of a programmer. I feel very comfortable using it (as long as I
+            actually know what the problem is asking of me)
+          </p>
+          <h3>10/10</h3>
+          <h2>Asking your peers for help</h2>
+          <p>
+            I think I will be better at this along with asking my coaches for
+            help in the bootcamp. <br />I still feel a bit uncomfortable asking
+            questions in the Discord, but I am getting better!
+          </p>
+          <h3>6/10</h3>
+          <h2>Asking coaches for help</h2>
+          <p>See above.</p>
+          <h3>6/10</h3>
+          <h2>Improving your process with reflection</h2>
+          <p>
+            I’ve gone back to last week's JS Cafe problem and attempted some
+            stretch questions on the day of writing this blog. <br />It felt
+            like my reflections from last week have helped this week’s kata
+            problems immensely.
+          </p>
+          <h3>9/10</h3>
+          <h1>A Reflection on a time I was Reluctant to ask for Help</h1>
+          <p>
+            I was reluctant to ask for help with the getScore function in the
+            gradebook kata. I think I was reluctant because I thought I could do
+            it myself, and I can be a bit stubborn like that sometimes. But
+            eventually I realised it would be better to just ask a question I
+            thought was silly, rather than sitting for a few hours to complete
+            the question by brute forcing it. Next time I try to break the
+            question down into simpler terms and ask questions more often.
+          </p>
+        </div>
+        <!--Hyperlink to the top of the page (goes to id "top")-->
+        <a href="#top">
+          <h1 id="jumpButton">
+            <button class="buttonStyle">To the top!</button>
+          </h1>
+        </a>
+      </div>
+    </article>
+  </body>
+</html>
