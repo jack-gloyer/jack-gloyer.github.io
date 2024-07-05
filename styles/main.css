@@ -35,7 +35,8 @@
   align-items: center;
   justify-content: center;
   font-family: 'Playfair Display', serif;
-  margin-top: 1em;
+  margin-top:25px;
+  margin-bottom: 25px;
   font-size: larger;
   .paragraphTitle {
     display: flex;
@@ -68,9 +69,7 @@
   font-family: 'Playfair Display', Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
   'Lucida Sans', Arial, sans-serif;
   padding:15px 32px;
-  min-width: 250px;
-  max-height: 150px;
-  max-width: 400px;
+  width: 100%;
 }
 
 .buttonStyle:hover{
@@ -82,14 +81,16 @@
 
 .linkBox {
   /*holds structure for blog post boxes*/
-  display: flex;
-  justify-content: center;
+  display: table;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   position:relative;
   background-color: #fbe9d0;
-  padding: 1em;
-  margin-top: 1em;
+  padding: 1em; 
+  width: 75%;
+  margin-top: 25px;
+  margin-bottom: 25px;
   border-style: inset;
   border-radius: 4em;
   border-width: thick;
